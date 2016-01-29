@@ -1,5 +1,5 @@
 
-#Steps follow to setup MyCaptionLabsUI(Frontend) project :- 
+#Steps to follow setup MyCaptionLabsUI(Frontend) project :- 
 
 Step 1 :- Take the clone from git repository https://github.com/mediacatapult/MyCaptionLabsUI.
 
