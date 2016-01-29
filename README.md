@@ -57,7 +57,7 @@ For UI Development, Brackets Editor (http://brackets.io/) is used with following
 File name convention:<br/>
 1. All File name should be in lowercase and words are separated by "-".<br/>
 2. Angular JS File convention<br/>
-     1. Services file name should be end with service eg. my-service.js<br/>
+####1. Services file name should be end with service eg. my-service.js<br/>
     2. Controller file name should be end with controller eg. my-controller.js<br/>
     3. same as other file<br/>
 3. HTML, JS File should be place in their respective module.<br/>
