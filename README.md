@@ -9,15 +9,16 @@ Step 3 :- Install node, grunt, npm, sass, ruby for packaging and run 'grunt' com
 
 Step 4 :- Install nginx and update default configuration of ngnix by edit /etc/nginx/sites-enabled/default file with below content :
 
-server {
-	listen 80;
-	#listen 443 ssl;
-	root /home/oodles/git/MyCaptionLabsUI/caption_lab_ui_build;  #Change it according to your project folder
-	index /main.html;
-	#Make site accessible from http://localhost/
-	server_name localhost;
-	#ssl_certificate /etc/nginx/ssl/nginx.crt;
-        #ssl_certificate_key /etc/nginx/ssl/nginx.key;
+	server {
+		listen 80;
+		#listen 443 ssl;
+		root /home/oodles/git/MyCaptionLabsUI/caption_lab_ui_build;  #Change it according to your project folder
+		index /main.html;
+		
+		#Make site accessible from http://localhost/
+		server_name localhost;
+		#ssl_certificate /etc/nginx/ssl/nginx.crt;
+        	#ssl_certificate_key /etc/nginx/ssl/nginx.key;
 
 	location / {
 		index /main.html;
