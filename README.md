@@ -44,7 +44,6 @@ Step 4 :- Install nginx and update default configuration of ngnix by edit /etc/n
 
 Step 5 :- Start ngnix via 'sudo service nginx start'. This will deploy project on port 80 and you can check it on browser with http://localhost.
 
-MyCaptionLabsUI
 
 For UI Development, Brackets Editor (http://brackets.io/) is used with following Extensions installed: 1) Brackets Shell 2) Beautify 3) Brackets Icons 4) Document Toolbar 5) Ordered Ctrl+TAB Navigation 6) Brackets Git
 
