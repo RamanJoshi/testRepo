@@ -8,6 +8,7 @@ Step 2 :- Install bracket editor for developement and import project into bracke
 Step 3 :- Install node, grunt, npm, sass, ruby for packaging and run 'grunt' command on project root folder for packaging.
 
 Step 4 :- Install nginx and update default configuration of ngnix by edit /etc/nginx/sites-enabled/default file with below content :
+
 server {
 	listen 80;
 	#listen 443 ssl;
