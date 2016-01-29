@@ -1,11 +1,5 @@
-MyCaptionLabsUI
 
-For UI Development, Brackets Editor (http://brackets.io/) is used with following Extensions installed: 1) Brackets Shell 2) Beautify 3) Brackets Icons 4) Document Toolbar 5) Ordered Ctrl+TAB Navigation 6) Brackets Git
-
-File name convention: 1. All File name should be in lowercase and words are separated by "-". 2. Angular JS File convention 1. Services file name should be end with service eg. my-service.js 2. Controller file name should be end with controller eg. my-controller.js 3. same as other file 3. HTML, JS File should be place in their respective module
-
-
-Steps follow to setup MyCaptionLabsUI(Frontend) project :- 
+#Steps follow to setup MyCaptionLabsUI(Frontend) project :- 
 
 Step 1 :- Take the clone from git repository https://github.com/mediacatapult/MyCaptionLabsUI.
 
@@ -45,10 +39,14 @@ server {
 		proxy_pass http://localhost:8080/api;
 			
 	}
-	
-}
+	}
 
 Step 5 :- Start ngnix via 'sudo service nginx start'. This will deploy project on port 80 and you can check it on browser with http://localhost.
 
+MyCaptionLabsUI
+
+For UI Development, Brackets Editor (http://brackets.io/) is used with following Extensions installed: 1) Brackets Shell 2) Beautify 3) Brackets Icons 4) Document Toolbar 5) Ordered Ctrl+TAB Navigation 6) Brackets Git
+
+File name convention: 1. All File name should be in lowercase and words are separated by "-". 2. Angular JS File convention 1. Services file name should be end with service eg. my-service.js 2. Controller file name should be end with controller eg. my-controller.js 3. same as other file 3. HTML, JS File should be place in their respective module
 
 
