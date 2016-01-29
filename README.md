@@ -14,8 +14,7 @@ server {
 	#listen 443 ssl;
 	root /home/oodles/git/MyCaptionLabsUI/caption_lab_ui_build;  #Change it according to your project folder
 	index /main.html;
-
-	# Make site accessible from http://localhost/
+	#Make site accessible from http://localhost/
 	server_name localhost;
 	#ssl_certificate /etc/nginx/ssl/nginx.crt;
         #ssl_certificate_key /etc/nginx/ssl/nginx.key;
