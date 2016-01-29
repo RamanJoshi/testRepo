@@ -24,7 +24,7 @@ Step 4 :- Install nginx and update default configuration of ngnix by edit /etc/n
 		index /main.html;
 		try_files $uri $uri/ /main.html;
 	}
-	location /static_content{
+	location /static_content{ 
 	  	alias  /home/mycaptionlab;
 	}
 	
