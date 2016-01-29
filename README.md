@@ -46,7 +46,7 @@ Step 5 :- Start ngnix via 'sudo service nginx start'. This will deploy project o
 
 MyCaptionLabsUI
 
-For UI Development, Brackets Editor (http://brackets.io/) is used with following Extensions installed:
+For UI Development, Brackets Editor (http://brackets.io/) is used with following Extensions installed:<br/>
 1) Brackets Shell
 2) Beautify
 3) Brackets Icons
